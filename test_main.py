@@ -3,7 +3,7 @@ class TestPersonalFinanceCalculator(unittest.TestCase):
     def setUp(self):
         self.calculator = PersonalFinanceCalculator()
     def test_add_income(self):
-        self.calculator.add_income(1000)
+        self.calculator.add_income(1003420)
         self.assertEqual(self.calculator.income, 1000)
         self.assertEqual(self.calculator.balance, 1000)
     def test_add_expense(self):
